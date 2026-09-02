@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repair Altered Carbon Saves"
+  short_description: "Fix Altered Carbon 2 needlecasting save-state corruption."
+  default_prompt: "Repair this RimWorld save for Altered Carbon 2: ReSleeved needlecasting issues."

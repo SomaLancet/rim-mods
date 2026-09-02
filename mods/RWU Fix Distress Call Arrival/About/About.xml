@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Fix Distress Call Arrival</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.distresscallarrivalfix</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>rjw.sexperience</li>
+    <li>vegapnk.rjw.genes</li>
+    <li>vanillaexpanded.vanillasocialinteractionsexpanded</li>
+    <li>erdelf.humanoidalienraces</li>
+  </loadAfter>
+  <description>
+Prevents distress-call map generation from consuming arriving transporters when malformed null parent relations break pawn generation or leave the corpse killer list empty.
+  </description>
+</ModMetaData>

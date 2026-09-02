@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Fix Transferable CompIngredients</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.transferablecompingredientsfix</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>mrcool92.agoc</li>
+    <li>mrhydralisk.vnpereimaginedprogression</li>
+  </loadAfter>
+  <description>
+Prevents malformed CompIngredients data from aborting caravan and transporter transfer-list initialization. Affected item stacks remain separate instead of crashing the dialog.
+  </description>
+</ModMetaData>

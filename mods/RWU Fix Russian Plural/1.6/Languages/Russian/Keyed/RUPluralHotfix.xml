@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Core Russian translation hotfixes for RimWorld 1.6 _numCase log spam. -->
+  <AgeChronological>Хронологический возраст: {0} г. {1} кв. {2} дн.</AgeChronological>
+  <AgeBiological>Биологический возраст: {0} г. {1} кв. {2} дн.</AgeBiological>
+  <PeriodYears>{0} г.</PeriodYears>
+  <PeriodQuadrums>{0} кв.</PeriodQuadrums>
+  <PeriodDays>{0} дн.</PeriodDays>
+  <PowerConnectedRateStored>Запас мощности: {0} Вт ({1} Вт*дн. аккумулировано)</PowerConnectedRateStored>
+  <ColonistsIdle>{0} поселенцев бездельничают</ColonistsIdle>
+
+  <!-- Ideology. -->
+  <ChooseNormalMemesInfo MayRequire="Ludeon.RimWorld.Ideology">Выберите {0}-{1} черт, которые сформируют фундамент вашей идеологии.</ChooseNormalMemesInfo>
+  <MessageNotEnoughMemes MayRequire="Ludeon.RimWorld.Ideology">Необходимо выбрать хотя бы {0} черт.</MessageNotEnoughMemes>
+  <MessageTooManyMemes MayRequire="Ludeon.RimWorld.Ideology">Нельзя выбрать больше {0} черт.</MessageTooManyMemes>
+  <NotEnoughMemesFluidIdeo MayRequire="Ludeon.RimWorld.Ideology">Выберите {0} черт.</NotEnoughMemesFluidIdeo>
+
+  <!-- Vanilla Races Expanded - Fungoid Russian Language Pack. -->
+  <VRE_InfectedLabel MayRequire="OW.RU.Fungoid">Генная инфекция ({0} дн.)</VRE_InfectedLabel>
+
+  <!-- Vanilla Factions Expanded - Insectoids. -->
+  <VFEI_SettleWarning MayRequire="VRE.GrimCheese.Insectoid2">Эта область находится рядом с ульем инсектоидов, поэтому на неё будет постоянно влиять их присутствие. Насекомые будут пробираться к вам каждые {0} дн. Крупные прорывы будут случаться гораздо чаще и происходить где угодно, а не только в тёмных местах. Мегапауки, пещерные жуки и мегаскарабеи свободно перемещаются по всей заражённой области, а путешествующим караванам, возможно, придётся отбиваться от стай инсектоидов.</VFEI_SettleWarning>
+  <VFEI_BurrowWaves MayRequire="VRE.GrimCheese.Insectoid2">{0} волн инсектоидов из {1}.</VFEI_BurrowWaves>
+
+  <!-- Vanilla Factions Expanded - Deserters. -->
+  <VFED.TimeToReceive MayRequire="Mewn.RU.Deserters">Расчётное время получения: {0}-{1} дн.</VFED.TimeToReceive>
+  <VFED.TimeToPickup MayRequire="Mewn.RU.Deserters">Времени, чтобы забрать заказ: {0} дн.</VFED.TimeToPickup>
+  <VFED.ShotsFiredLeft MayRequire="Mewn.RU.Deserters">{0} лучей выпущено, осталось - {1}.</VFED.ShotsFiredLeft>
+  <VFED.BurnoutIntelGained MayRequire="Mewn.RU.Deserters">Кустарный радиоперехватчик зафиксировал имперские радиосигналы и сгенерировал {0} папок разведданных.</VFED.BurnoutIntelGained>
+  <VFED.BurnoutCriticalIntelGained MayRequire="Mewn.RU.Deserters">Кустарный радиоперехватчик перехватил важные имперские сообщения и сгенерировал {0} папок критических разведданных.</VFED.BurnoutCriticalIntelGained>
+</LanguageData>

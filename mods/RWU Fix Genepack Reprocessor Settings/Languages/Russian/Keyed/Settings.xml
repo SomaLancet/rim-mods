@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GeneR_GenepackConsume>Расходовать исходные генопаки:</GeneR_GenepackConsume>
+  <GeneR_GenepackConsumeHelp>Включено: исходные генопаки уничтожаются после завершения операции. При объединении это предотвращает их дублирование.</GeneR_GenepackConsumeHelp>
+</LanguageData>

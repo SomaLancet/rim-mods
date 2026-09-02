@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VoidMonolith"]</xpath>
+        <value>
+          <minifiedDef>MinifiedThing</minifiedDef>
+          <rotatable>true</rotatable>
+          <thingCategories>
+            <li>BuildingsSpecial</li>
+          </thingCategories>
+          <placeWorkers>
+            <li>RWUPortableVoidMonolith.PlaceWorker_PortableVoidMonolith</li>
+          </placeWorkers>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VoidMonolith"]/bringAlongOnGravship</xpath>
+        <value><bringAlongOnGravship>true</bringAlongOnGravship></value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VoidMonolith"]/building/claimable</xpath>
+        <value><claimable>true</claimable></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VoidMonolith"]/statBases</xpath>
+        <value><Mass>70</Mass></value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="VoidMonolithAttachment"]</xpath>
+        <value><rotatable>true</rotatable></value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="VoidMonolithAttachment"]/bringAlongOnGravship</xpath>
+        <value><bringAlongOnGravship>true</bringAlongOnGravship></value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

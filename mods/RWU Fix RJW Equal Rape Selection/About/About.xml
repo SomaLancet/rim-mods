@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Fix RJW Equal Rape Selection</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.rjwequalrapeselection</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>rim.job.world</packageId>
+      <displayName>RimJobWorld</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>rim.job.world</li>
+  </loadAfter>
+  <description>
+Selects equally between available RJW comfort-prisoner rape, random rape, necrophilia, and bestiality branches. If a randomly selected branch cannot produce a job, it is removed and another remaining branch is selected at random.
+  </description>
+</ModMetaData>

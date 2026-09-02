@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWU_PVM_AttachmentsOutOfBounds>Монолит целиком выйдет за границу карты.</RWU_PVM_AttachmentsOutOfBounds>
+  <RWU_PVM_AttachmentsBlocked>Монолит целиком нельзя установить здесь: {0} перекрывает одну из его секций.</RWU_PVM_AttachmentsBlocked>
+</LanguageData>

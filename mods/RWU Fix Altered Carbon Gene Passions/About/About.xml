@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Fix Altered Carbon Gene Passions</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.alteredcarbongenepassions</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>hlx.UltratechAlteredCarbon</packageId>
+      <displayName>Altered Carbon 2: ReSleeved</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2196278117</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>hlx.UltratechAlteredCarbon</li>
+  </loadAfter>
+  <description>
+Preserves the base and effective skill passions for player pawns with passion-modifying genes when Altered Carbon writes, needlecasts, disconnects, or restores NeuralData. The stack editor and matrix character card display the effective AddOneLevel passion while NeuralData retains the safe base value. Works with generic pawn editors without a Character Editor dependency.
+  </description>
+</ModMetaData>

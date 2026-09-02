@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Extension Altered Carbon Matrix Degradation</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.alteredcarbonmatrixdegradation</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>hlx.UltratechAlteredCarbon</packageId>
+      <displayName>Altered Carbon 2: ReSleeved</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2196278117</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>hlx.UltratechAlteredCarbon</li>
+  </loadAfter>
+  <description>
+Allows neural stack degradation to recover while an active neural stack is stored in a powered neural matrix, using the same recovery rate as an installed stack.
+  </description>
+</ModMetaData>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit RWU Fixes"
+  short_description: "Check whether local RWU fixes are still needed"
+  default_prompt: "Use $audit-rwu-fixes to audit the current local RWU mods and classify each as keep, retest, or retire."

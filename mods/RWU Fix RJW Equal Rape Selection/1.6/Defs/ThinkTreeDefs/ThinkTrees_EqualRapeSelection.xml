@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThinkTreeDef>
+    <defName>RWU_EqualRapeSelectionTree</defName>
+    <insertTag>RJW_CasualSex_Top</insertTag>
+    <insertPriority>4</insertPriority>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="RWUEqualRJWSelection.JobGiver_EqualRapeSelection" />
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</Defs>

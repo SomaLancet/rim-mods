@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Fix Portraits of the Rim</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.portraitsoftherimfix</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>TwoPenny.PortraitsOfTheRim</li>
+  </loadAfter>
+  <description>
+Prevents Portraits of the Rim hair rendering from crashing when a pawn has no hair graphic.
+  </description>
+</ModMetaData>

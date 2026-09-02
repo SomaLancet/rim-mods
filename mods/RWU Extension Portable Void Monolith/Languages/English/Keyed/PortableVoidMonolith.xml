@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWU_PVM_AttachmentsOutOfBounds>The complete monolith would extend beyond the map edge.</RWU_PVM_AttachmentsOutOfBounds>
+  <RWU_PVM_AttachmentsBlocked>Cannot place the complete monolith here: {0} blocks one of its attached sections.</RWU_PVM_AttachmentsBlocked>
+</LanguageData>
