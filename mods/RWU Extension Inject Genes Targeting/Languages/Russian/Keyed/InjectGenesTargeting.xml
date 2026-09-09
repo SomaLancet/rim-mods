@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <RWU_ApplyGenepackToTarget>Применить к цели</RWU_ApplyGenepackToTarget>
+  <RWU_ApplyGenepackToTargetUnavailable>Применить к цели (недоступно)</RWU_ApplyGenepackToTargetUnavailable>
   <RWU_InjectGenesTargetBecameInvalid>{0}: генопак больше нельзя применить к этой пешке.</RWU_InjectGenesTargetBecameInvalid>
 </LanguageData>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <RWU_ApplyGenepackToTarget>Apply to target</RWU_ApplyGenepackToTarget>
+  <RWU_ApplyGenepackToTargetUnavailable>Apply to target (unavailable)</RWU_ApplyGenepackToTargetUnavailable>
   <RWU_InjectGenesTargetBecameInvalid>{0} is no longer a valid recipient for this genepack.</RWU_InjectGenesTargetBecameInvalid>
 </LanguageData>

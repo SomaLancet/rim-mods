@@ -16,17 +16,40 @@ namespace RWUInjectGenesTargeting
 
     public sealed class CompTargetEffect_GeneInjectionTargeted : CompTargetEffect_GeneInjector
     {
-        // CompUsable initially validates the pawn receiving the order. The actual
-        // recipient is chosen afterwards, so recipient validation lives on the
-        // targetable comp instead.
-        public override AcceptanceReport CanBeUsedBy(Pawn pawn)
-        {
-            return true;
-        }
-
         public AcceptanceReport CanApplyTo(Pawn pawn)
         {
-            return base.CanBeUsedBy(pawn);
+            if (pawn == null || pawn.genes == null)
+            {
+                return false;
+            }
+
+            if (pawn.IsColonistPlayerControlled)
+            {
+                return base.CanBeUsedBy(pawn);
+            }
+
+            if (!pawn.IsPrisonerOfColony && !pawn.IsSlaveOfColony)
+            {
+                return false;
+            }
+
+            Genepack genepack = parent as Genepack;
+            if (genepack?.GeneSet == null)
+            {
+                return false;
+            }
+
+            foreach (GeneDef geneDef in genepack.GeneSet.GenesListForReading)
+            {
+#pragma warning disable CS0618 // Match Inject Genes' duplicate-gene check on RimWorld 1.6.
+                if (pawn.genes.HasGene(geneDef))
+#pragma warning restore CS0618
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
 
         public override void DoEffect(Pawn pawn)
@@ -70,19 +93,48 @@ namespace RWUInjectGenesTargeting
         }
     }
 
-    public sealed class CompProperties_TargetableColonist : CompProperties_Targetable
+    public sealed class CompProperties_ApplyGenepackToTarget : CompProperties
     {
-        public CompProperties_TargetableColonist()
+        public int useDuration = 60;
+
+        public CompProperties_ApplyGenepackToTarget()
         {
-            compClass = typeof(CompTargetableColonist);
+            compClass = typeof(CompApplyGenepackToTarget);
         }
     }
 
-    public sealed class CompTargetableColonist : CompTargetable
+    public sealed class CompApplyGenepackToTarget : ThingComp
     {
-        protected override bool PlayerChoosesTarget => true;
+        public CompProperties_ApplyGenepackToTarget Props =>
+            (CompProperties_ApplyGenepackToTarget)props;
 
-        protected override TargetingParameters GetTargetingParameters()
+        public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn selectedPawn)
+        {
+            if (selectedPawn == null || !selectedPawn.IsColonistPlayerControlled)
+            {
+                yield break;
+            }
+
+            string label = "RWU_ApplyGenepackToTarget".Translate();
+            if (!selectedPawn.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation) ||
+                !selectedPawn.CanReserveAndReach(parent, PathEndMode.ClosestTouch, Danger.Deadly, 1, 1))
+            {
+                yield return new FloatMenuOption(
+                    "RWU_ApplyGenepackToTargetUnavailable".Translate(),
+                    null);
+                yield break;
+            }
+
+            yield return new FloatMenuOption(label, delegate
+            {
+                Find.Targeter.BeginTargeting(
+                    GetTargetingParameters(),
+                    target => TryStartTargetedJob(selectedPawn, target.Pawn),
+                    selectedPawn);
+            });
+        }
+
+        private TargetingParameters GetTargetingParameters()
         {
             return new TargetingParameters
             {
@@ -93,14 +145,6 @@ namespace RWUInjectGenesTargeting
                 mapObjectTargetsMustBeAutoAttackable = false,
                 validator = target => IsValidRecipient(target.Thing as Pawn)
             };
-        }
-
-        public override IEnumerable<Thing> GetTargets(Thing targetChosenByPlayer = null)
-        {
-            if (targetChosenByPlayer != null)
-            {
-                yield return targetChosenByPlayer;
-            }
         }
 
         public bool IsValidRecipient(Pawn target)
@@ -115,6 +159,26 @@ namespace RWUInjectGenesTargeting
             CompTargetEffect_GeneInjectionTargeted effect =
                 parent.TryGetComp<CompTargetEffect_GeneInjectionTargeted>();
             return effect != null && effect.CanApplyTo(target).Accepted;
+        }
+
+        private void TryStartTargetedJob(Pawn selectedPawn, Pawn recipient)
+        {
+            if (!IsValidRecipient(recipient))
+            {
+                Messages.Message(
+                    "RWU_InjectGenesTargetBecameInvalid".Translate(recipient?.LabelShortCap ?? "?"),
+                    recipient,
+                    MessageTypeDefOf.RejectInput,
+                    false);
+                return;
+            }
+
+            Job job = JobMaker.MakeJob(
+                DefDatabase<JobDef>.GetNamed("RWU_ApplyGenepackToPawn"),
+                parent,
+                recipient);
+            job.count = 1;
+            selectedPawn.jobs.TryTakeOrderedJob(job, JobTag.Misc);
         }
     }
 
@@ -136,13 +200,19 @@ namespace RWUInjectGenesTargeting
         public override void Notify_Starting()
         {
             base.Notify_Starting();
-            CompUsable usable = Genepack?.TryGetComp<CompUsable>();
-            useDuration = usable?.Props.useDuration ?? 60;
+            CompApplyGenepackToTarget targetedUse =
+                Genepack?.TryGetComp<CompApplyGenepackToTarget>();
+            useDuration = targetedUse?.Props.useDuration ?? 60;
         }
 
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return pawn.Reserve(job.targetA, job, 1, 1, null, errorOnFailed) &&
+            if (!pawn.Reserve(job.targetA, job, 1, 1, null, errorOnFailed))
+            {
+                return false;
+            }
+
+            return Recipient == pawn ||
                    pawn.Reserve(job.targetB, job, 1, -1, null, errorOnFailed);
         }
 
@@ -172,10 +242,11 @@ namespace RWUInjectGenesTargeting
         {
             Thing genepack = Genepack;
             Pawn recipient = Recipient;
-            CompTargetableColonist targetable = genepack?.TryGetComp<CompTargetableColonist>();
+            CompApplyGenepackToTarget targetedUse =
+                genepack?.TryGetComp<CompApplyGenepackToTarget>();
             CompUsable usable = genepack?.TryGetComp<CompUsable>();
 
-            if (targetable == null || usable == null || !targetable.IsValidRecipient(recipient))
+            if (targetedUse == null || usable == null || !targetedUse.IsValidRecipient(recipient))
             {
                 Messages.Message(
                     "RWU_InjectGenesTargetBecameInvalid".Translate(recipient?.LabelShortCap ?? "?"),
