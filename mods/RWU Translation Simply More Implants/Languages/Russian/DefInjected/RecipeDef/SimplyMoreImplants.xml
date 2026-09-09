@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Turn_Make_ComponentMedical.label>изготовить медицинский компонент</Turn_Make_ComponentMedical.label>
+  <Turn_Make_ComponentMedical.description>Изготовить медицинский компонент.</Turn_Make_ComponentMedical.description>
+  <Turn_Make_ComponentMedical.jobString>Изготавливает медицинский компонент.</Turn_Make_ComponentMedical.jobString>
+
+  <Turn_InstallBionicGyroscope.label>установить бионический гироскоп</Turn_InstallBionicGyroscope.label>
+  <Turn_InstallBionicGyroscope.description>Установить бионический гироскоп.</Turn_InstallBionicGyroscope.description>
+  <Turn_InstallBionicGyroscope.jobString>Устанавливает бионический гироскоп.</Turn_InstallBionicGyroscope.jobString>
+  <Turn_RemoveBionicGyroscope.label>извлечь бионический гироскоп</Turn_RemoveBionicGyroscope.label>
+  <Turn_RemoveBionicGyroscope.description>Извлечь установленный бионический гироскоп.</Turn_RemoveBionicGyroscope.description>
+  <Turn_RemoveBionicGyroscope.jobString>Извлекает бионический гироскоп.</Turn_RemoveBionicGyroscope.jobString>
+
+  <Turn_InstallCaravanImplant.label>установить имплант странника</Turn_InstallCaravanImplant.label>
+  <Turn_InstallCaravanImplant.description>Установить имплант странника.</Turn_InstallCaravanImplant.description>
+  <Turn_InstallCaravanImplant.jobString>Устанавливает имплант странника.</Turn_InstallCaravanImplant.jobString>
+  <Turn_RemoveCaravanImplant.label>извлечь имплант странника</Turn_RemoveCaravanImplant.label>
+  <Turn_RemoveCaravanImplant.description>Извлечь установленный имплант странника.</Turn_RemoveCaravanImplant.description>
+  <Turn_RemoveCaravanImplant.jobString>Извлекает имплант странника.</Turn_RemoveCaravanImplant.jobString>
+
+  <Turn_InstallCellStabilizer.label>установить клеточный стабилизатор</Turn_InstallCellStabilizer.label>
+  <Turn_InstallCellStabilizer.description>Установить клеточный стабилизатор.</Turn_InstallCellStabilizer.description>
+  <Turn_InstallCellStabilizer.jobString>Устанавливает клеточный стабилизатор.</Turn_InstallCellStabilizer.jobString>
+  <Turn_RemoveCellStablizer.label>извлечь клеточный стабилизатор</Turn_RemoveCellStablizer.label>
+  <Turn_RemoveCellStablizer.description>Извлечь установленный клеточный стабилизатор.</Turn_RemoveCellStablizer.description>
+  <Turn_RemoveCellStablizer.jobString>Извлекает клеточный стабилизатор.</Turn_RemoveCellStablizer.jobString>
+
+  <Turn_InstallLumbarRig.label>установить поясничный каркас</Turn_InstallLumbarRig.label>
+  <Turn_InstallLumbarRig.description>Установить поясничный каркас.</Turn_InstallLumbarRig.description>
+  <Turn_InstallLumbarRig.jobString>Устанавливает поясничный каркас.</Turn_InstallLumbarRig.jobString>
+  <Turn_RemoveLumbarRig.label>извлечь поясничный каркас</Turn_RemoveLumbarRig.label>
+  <Turn_RemoveLumbarRig.description>Извлечь установленный поясничный каркас.</Turn_RemoveLumbarRig.description>
+  <Turn_RemoveLumbarRig.jobString>Извлекает поясничный каркас.</Turn_RemoveLumbarRig.jobString>
+
+  <Turn_InstallMagneticShield.label>установить электромагнитный щит</Turn_InstallMagneticShield.label>
+  <Turn_InstallMagneticShield.description>Установить электромагнитный щит.</Turn_InstallMagneticShield.description>
+  <Turn_InstallMagneticShield.jobString>Устанавливает электромагнитный щит.</Turn_InstallMagneticShield.jobString>
+  <Turn_RemoveMagneticShield.label>извлечь электромагнитный щит</Turn_RemoveMagneticShield.label>
+  <Turn_RemoveMagneticShield.description>Извлечь установленный электромагнитный щит.</Turn_RemoveMagneticShield.description>
+  <Turn_RemoveMagneticShield.jobString>Извлекает электромагнитный щит.</Turn_RemoveMagneticShield.jobString>
+
+  <Turn_InstallSmoothModulator.label>установить модулятор мягкого голоса</Turn_InstallSmoothModulator.label>
+  <Turn_InstallSmoothModulator.description>Установить модулятор мягкого голоса.</Turn_InstallSmoothModulator.description>
+  <Turn_InstallSmoothModulator.jobString>Устанавливает модулятор мягкого голоса.</Turn_InstallSmoothModulator.jobString>
+  <Turn_RemoveSmoothModulator.label>извлечь модулятор мягкого голоса</Turn_RemoveSmoothModulator.label>
+  <Turn_RemoveSmoothModulator.description>Извлечь установленный модулятор мягкого голоса.</Turn_RemoveSmoothModulator.description>
+  <Turn_RemoveSmoothModulator.jobString>Извлекает модулятор мягкого голоса.</Turn_RemoveSmoothModulator.jobString>
+
+  <Turn_InstallRoughModulator.label>установить модулятор грубого голоса</Turn_InstallRoughModulator.label>
+  <Turn_InstallRoughModulator.description>Установить модулятор грубого голоса.</Turn_InstallRoughModulator.description>
+  <Turn_InstallRoughModulator.jobString>Устанавливает модулятор грубого голоса.</Turn_InstallRoughModulator.jobString>
+  <Turn_RemoveRoughModulator.label>извлечь модулятор грубого голоса</Turn_RemoveRoughModulator.label>
+  <Turn_RemoveRoughModulator.description>Извлечь установленный модулятор грубого голоса.</Turn_RemoveRoughModulator.description>
+  <Turn_RemoveRoughModulator.jobString>Извлекает модулятор грубого голоса.</Turn_RemoveRoughModulator.jobString>
+
+  <Turn_InstallOpticAugment.label>установить офтальмический аугмент</Turn_InstallOpticAugment.label>
+  <Turn_InstallOpticAugment.description>Установить офтальмический аугмент.</Turn_InstallOpticAugment.description>
+  <Turn_InstallOpticAugment.jobString>Устанавливает офтальмический аугмент.</Turn_InstallOpticAugment.jobString>
+  <Turn_RemoveOpticAugment.label>извлечь офтальмический аугмент</Turn_RemoveOpticAugment.label>
+  <Turn_RemoveOpticAugment.description>Извлечь установленный офтальмический аугмент.</Turn_RemoveOpticAugment.description>
+  <Turn_RemoveOpticAugment.jobString>Извлекает офтальмический аугмент.</Turn_RemoveOpticAugment.jobString>
+
+  <Turn_InstallPainswitch.label>установить переключатель боли</Turn_InstallPainswitch.label>
+  <Turn_InstallPainswitch.description>Установить переключатель боли.</Turn_InstallPainswitch.description>
+  <Turn_InstallPainswitch.jobString>Устанавливает переключатель боли.</Turn_InstallPainswitch.jobString>
+  <Turn_RemovePainswitch.label>извлечь переключатель боли</Turn_RemovePainswitch.label>
+  <Turn_RemovePainswitch.description>Извлечь установленный переключатель боли.</Turn_RemovePainswitch.description>
+  <Turn_RemovePainswitch.jobString>Извлекает переключатель боли.</Turn_RemovePainswitch.jobString>
+
+  <Turn_InstallSkullPlateFoil.label>установить психофольговую черепную пластину</Turn_InstallSkullPlateFoil.label>
+  <Turn_InstallSkullPlateFoil.description>Установить психофольговую черепную пластину.</Turn_InstallSkullPlateFoil.description>
+  <Turn_InstallSkullPlateFoil.jobString>Устанавливает психофольговую черепную пластину.</Turn_InstallSkullPlateFoil.jobString>
+  <Turn_RemoveSkullPlateFoil.label>извлечь психофольговую черепную пластину</Turn_RemoveSkullPlateFoil.label>
+  <Turn_RemoveSkullPlateFoil.description>Извлечь установленную психофольговую черепную пластину.</Turn_RemoveSkullPlateFoil.description>
+  <Turn_RemoveSkullPlateFoil.jobString>Извлекает психофольговую черепную пластину.</Turn_RemoveSkullPlateFoil.jobString>
+
+  <Turn_InstallPsychoProcessor.label>установить психопроцессор</Turn_InstallPsychoProcessor.label>
+  <Turn_InstallPsychoProcessor.description>Установить психопроцессор.</Turn_InstallPsychoProcessor.description>
+  <Turn_InstallPsychoProcessor.jobString>Устанавливает психопроцессор.</Turn_InstallPsychoProcessor.jobString>
+  <Turn_RemovePsychoProcessor.label>извлечь психопроцессор</Turn_RemovePsychoProcessor.label>
+  <Turn_RemovePsychoProcessor.description>Извлечь установленный психопроцессор.</Turn_RemovePsychoProcessor.description>
+  <Turn_RemovePsychoProcessor.jobString>Извлекает психопроцессор.</Turn_RemovePsychoProcessor.jobString>
+
+  <Turn_InstallWindGauge.label>установить бионический датчик ветра</Turn_InstallWindGauge.label>
+  <Turn_InstallWindGauge.description>Установить бионический датчик ветра.</Turn_InstallWindGauge.description>
+  <Turn_InstallWindGauge.jobString>Устанавливает бионический датчик ветра.</Turn_InstallWindGauge.jobString>
+  <Turn_RemoveWindGauge.label>извлечь бионический датчик ветра</Turn_RemoveWindGauge.label>
+  <Turn_RemoveWindGauge.description>Извлечь установленный бионический датчик ветра.</Turn_RemoveWindGauge.description>
+  <Turn_RemoveWindGauge.jobString>Извлекает бионический датчик ветра.</Turn_RemoveWindGauge.jobString>
+
+  <Turn_InstallBiocapsule.label>установить биокапсулу</Turn_InstallBiocapsule.label>
+  <Turn_InstallBiocapsule.description>Установить биокапсулу.</Turn_InstallBiocapsule.description>
+  <Turn_InstallBiocapsule.jobString>Устанавливает биокапсулу.</Turn_InstallBiocapsule.jobString>
+  <Turn_RemoveBiocapsule.label>извлечь биокапсулу</Turn_RemoveBiocapsule.label>
+  <Turn_RemoveBiocapsule.description>Извлечь установленную биокапсулу.</Turn_RemoveBiocapsule.description>
+  <Turn_RemoveBiocapsule.jobString>Извлекает биокапсулу.</Turn_RemoveBiocapsule.jobString>
+
+  <Turn_InstallNeuralSupercapacitor.label>установить нейронный суперконденсатор</Turn_InstallNeuralSupercapacitor.label>
+  <Turn_InstallNeuralSupercapacitor.description>Установить нейронный суперконденсатор.</Turn_InstallNeuralSupercapacitor.description>
+  <Turn_InstallNeuralSupercapacitor.jobString>Устанавливает нейронный суперконденсатор.</Turn_InstallNeuralSupercapacitor.jobString>
+  <Turn_RemoveNeuralSupercapacitor.label>извлечь нейронный суперконденсатор</Turn_RemoveNeuralSupercapacitor.label>
+  <Turn_RemoveNeuralSupercapacitor.description>Извлечь установленный нейронный суперконденсатор.</Turn_RemoveNeuralSupercapacitor.description>
+  <Turn_RemoveNeuralSupercapacitor.jobString>Извлекает нейронный суперконденсатор.</Turn_RemoveNeuralSupercapacitor.jobString>
+
+  <Turn_InstallSkullPlateEltex.label>установить эл-тексовую черепную пластину</Turn_InstallSkullPlateEltex.label>
+  <Turn_InstallSkullPlateEltex.description>Установить эл-тексовую черепную пластину.</Turn_InstallSkullPlateEltex.description>
+  <Turn_InstallSkullPlateEltex.jobString>Устанавливает эл-тексовую черепную пластину.</Turn_InstallSkullPlateEltex.jobString>
+  <Turn_RemoveSkullPlateEltex.label>извлечь эл-тексовую черепную пластину</Turn_RemoveSkullPlateEltex.label>
+  <Turn_RemoveSkullPlateEltex.description>Извлечь установленную эл-тексовую черепную пластину.</Turn_RemoveSkullPlateEltex.description>
+  <Turn_RemoveSkullPlateEltex.jobString>Извлекает эл-тексовую черепную пластину.</Turn_RemoveSkullPlateEltex.jobString>
+
+  <Turn_InstallPsychicRefresher.label>установить медитативный освежитель</Turn_InstallPsychicRefresher.label>
+  <Turn_InstallPsychicRefresher.description>Установить медитативный освежитель.</Turn_InstallPsychicRefresher.description>
+  <Turn_InstallPsychicRefresher.jobString>Устанавливает медитативный освежитель.</Turn_InstallPsychicRefresher.jobString>
+  <Turn_RemovePsychicRefresher.label>извлечь медитативный освежитель</Turn_RemovePsychicRefresher.label>
+  <Turn_RemovePsychicRefresher.description>Извлечь установленный медитативный освежитель.</Turn_RemovePsychicRefresher.description>
+  <Turn_RemovePsychicRefresher.jobString>Извлекает медитативный освежитель.</Turn_RemovePsychicRefresher.jobString>
+
+  <Turn_InstallPsychicAssistant.label>установить пси-помощника</Turn_InstallPsychicAssistant.label>
+  <Turn_InstallPsychicAssistant.description>Установить пси-помощника.</Turn_InstallPsychicAssistant.description>
+  <Turn_InstallPsychicAssistant.jobString>Устанавливает пси-помощника.</Turn_InstallPsychicAssistant.jobString>
+  <Turn_RemovePsychicAssistant.label>извлечь пси-помощника</Turn_RemovePsychicAssistant.label>
+  <Turn_RemovePsychicAssistant.description>Извлечь установленного пси-помощника.</Turn_RemovePsychicAssistant.description>
+  <Turn_RemovePsychicAssistant.jobString>Извлекает пси-помощника.</Turn_RemovePsychicAssistant.jobString>
+</LanguageData>

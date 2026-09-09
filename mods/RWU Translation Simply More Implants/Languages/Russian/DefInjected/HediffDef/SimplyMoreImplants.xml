@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Turn_BionicGyroscope.label>бионический гироскоп</Turn_BionicGyroscope.label>
+  <Turn_BionicGyroscope.labelNoun>бионический гироскоп</Turn_BionicGyroscope.labelNoun>
+  <Turn_BionicGyroscope.description>Установленный бионический гироскоп, улучшающий кинестетическое чувство носителя.</Turn_BionicGyroscope.description>
+
+  <Turn_CaravanImplant.label>имплант странника</Turn_CaravanImplant.label>
+  <Turn_CaravanImplant.labelNoun>имплант странника</Turn_CaravanImplant.labelNoun>
+  <Turn_CaravanImplant.description>Установленный имплант странника.</Turn_CaravanImplant.description>
+
+  <Turn_CellStabilizer.label>клеточный стабилизатор</Turn_CellStabilizer.label>
+  <Turn_CellStabilizer.labelNoun>клеточный стабилизатор</Turn_CellStabilizer.labelNoun>
+  <Turn_CellStabilizer.description>Установленный клеточный стабилизатор.</Turn_CellStabilizer.description>
+
+  <Turn_LumbarRig.label>поясничный каркас</Turn_LumbarRig.label>
+  <Turn_LumbarRig.labelNoun>поясничный каркас</Turn_LumbarRig.labelNoun>
+  <Turn_LumbarRig.description>Установленный поясничный каркас.</Turn_LumbarRig.description>
+
+  <Turn_MagneticShield.label>электромагнитный щит</Turn_MagneticShield.label>
+  <Turn_MagneticShield.labelNoun>электромагнитный щит</Turn_MagneticShield.labelNoun>
+  <Turn_MagneticShield.description>Установленный электромагнитный щит.</Turn_MagneticShield.description>
+
+  <Turn_SmoothModulator.label>модулятор мягкого голоса</Turn_SmoothModulator.label>
+  <Turn_SmoothModulator.labelNoun>модулятор мягкого голоса</Turn_SmoothModulator.labelNoun>
+  <Turn_SmoothModulator.description>Установленный модулятор мягкого голоса.</Turn_SmoothModulator.description>
+
+  <Turn_RoughModulator.label>модулятор грубого голоса</Turn_RoughModulator.label>
+  <Turn_RoughModulator.labelNoun>модулятор грубого голоса</Turn_RoughModulator.labelNoun>
+  <Turn_RoughModulator.description>Установленный модулятор грубого голоса.</Turn_RoughModulator.description>
+
+  <Turn_OpticAugment.label>офтальмический аугмент</Turn_OpticAugment.label>
+  <Turn_OpticAugment.labelNoun>офтальмический аугмент</Turn_OpticAugment.labelNoun>
+  <Turn_OpticAugment.description>Установленный офтальмический аугмент.</Turn_OpticAugment.description>
+
+  <Turn_Painswitch.label>переключатель боли</Turn_Painswitch.label>
+  <Turn_Painswitch.labelNoun>переключатель боли</Turn_Painswitch.labelNoun>
+  <Turn_Painswitch.description>Установленный переключатель боли.</Turn_Painswitch.description>
+
+  <Turn_SkullPlateFoil.label>психофольговая черепная пластина</Turn_SkullPlateFoil.label>
+  <Turn_SkullPlateFoil.labelNoun>психофольговая черепная пластина</Turn_SkullPlateFoil.labelNoun>
+  <Turn_SkullPlateFoil.description>Установленная черепная пластина из психофольги.</Turn_SkullPlateFoil.description>
+
+  <Turn_PsychoProcessor.label>психопроцессор</Turn_PsychoProcessor.label>
+  <Turn_PsychoProcessor.labelNoun>психопроцессор</Turn_PsychoProcessor.labelNoun>
+  <Turn_PsychoProcessor.description>Установленный психопроцессор.</Turn_PsychoProcessor.description>
+
+  <Turn_WindGauge.label>бионический датчик ветра</Turn_WindGauge.label>
+  <Turn_WindGauge.labelNoun>бионический датчик ветра</Turn_WindGauge.labelNoun>
+  <Turn_WindGauge.description>Установленный бионический датчик ветра.</Turn_WindGauge.description>
+
+  <Turn_OpticShock.label>зрительный шок</Turn_OpticShock.label>
+  <Turn_OpticShock.labelNoun>зрительный шок</Turn_OpticShock.labelNoun>
+  <Turn_OpticShock.description>Последствия электрического разряда в зрительном центре мозга. Обычно возникают из-за обратного импульса в зрительных аугментах, поражённых ЭМИ.</Turn_OpticShock.description>
+
+  <Turn_Biocapsule.label>биокапсула</Turn_Biocapsule.label>
+  <Turn_Biocapsule.labelNoun>биокапсула</Turn_Biocapsule.labelNoun>
+  <Turn_Biocapsule.description>Установленная биокапсула.</Turn_Biocapsule.description>
+
+  <Turn_NeuralSupercapacitor.label>нейронный суперконденсатор</Turn_NeuralSupercapacitor.label>
+  <Turn_NeuralSupercapacitor.labelNoun>нейронный суперконденсатор</Turn_NeuralSupercapacitor.labelNoun>
+  <Turn_NeuralSupercapacitor.description>Установленный нейронный суперконденсатор.</Turn_NeuralSupercapacitor.description>
+
+  <Turn_SkullPlateEltex.label>эл-тексовая черепная пластина</Turn_SkullPlateEltex.label>
+  <Turn_SkullPlateEltex.labelNoun>эл-тексовая черепная пластина</Turn_SkullPlateEltex.labelNoun>
+  <Turn_SkullPlateEltex.description>Установленная черепная пластина из усиливающего пси-способности эл-текса.</Turn_SkullPlateEltex.description>
+
+  <Turn_PsychicRefresher.label>медитативный освежитель</Turn_PsychicRefresher.label>
+  <Turn_PsychicRefresher.labelNoun>медитативный освежитель</Turn_PsychicRefresher.labelNoun>
+  <Turn_PsychicRefresher.description>Установленный медитативный освежитель.</Turn_PsychicRefresher.description>
+  <Turn_PsychicRefresher.stages.0.label>бездействует</Turn_PsychicRefresher.stages.0.label>
+  <Turn_PsychicRefresher.stages.1.label>активен</Turn_PsychicRefresher.stages.1.label>
+
+  <Turn_PsychicAssistant.label>пси-помощник</Turn_PsychicAssistant.label>
+  <Turn_PsychicAssistant.labelNoun>пси-помощник</Turn_PsychicAssistant.labelNoun>
+  <Turn_PsychicAssistant.description>Установленный пси-помощник.</Turn_PsychicAssistant.description>
+</LanguageData>

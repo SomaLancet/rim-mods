@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SimplyMoreImplants.DisableTechprints.Title>Отключить техпринты</SimplyMoreImplants.DisableTechprints.Title>
+  <SimplyMoreImplants.DisableTechprints.Description>(ТРЕБУЕТ ПЕРЕЗАПУСКА) Убирает требования техпринтов из проектов Simply More Implants.\n\nКроме того, позволяет схемам открывать исследования Simply More Implants.\n\nИмеет значение только при установленном дополнении Royalty.</SimplyMoreImplants.DisableTechprints.Description>
+</LanguageData>

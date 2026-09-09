@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.7>fleshyStartLetter(p=2)-&gt;д</TurnFleshmorphWordUtility.rulePack.rulesStrings.7>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.8>fleshyStartLetter(p=4)-&gt;к</TurnFleshmorphWordUtility.rulePack.rulesStrings.8>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.9>fleshyStartLetter-&gt;м</TurnFleshmorphWordUtility.rulePack.rulesStrings.9>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.10>fleshyStartLetter-&gt;н</TurnFleshmorphWordUtility.rulePack.rulesStrings.10>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.11>fleshyStartLetter-&gt;з</TurnFleshmorphWordUtility.rulePack.rulesStrings.11>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.14>fleshyBitStart-&gt;к</TurnFleshmorphWordUtility.rulePack.rulesStrings.14>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.15>fleshyBitStart-&gt;л</TurnFleshmorphWordUtility.rulePack.rulesStrings.15>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.16>fleshyBitStart-&gt;х</TurnFleshmorphWordUtility.rulePack.rulesStrings.16>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.17>fleshyBitStart-&gt;м</TurnFleshmorphWordUtility.rulePack.rulesStrings.17>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.18>fleshyBitStart-&gt;т</TurnFleshmorphWordUtility.rulePack.rulesStrings.18>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.19>fleshyBitStart-&gt;зр</TurnFleshmorphWordUtility.rulePack.rulesStrings.19>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.20>fleshyBitEnd-&gt;ак</TurnFleshmorphWordUtility.rulePack.rulesStrings.20>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.21>fleshyBitEnd-&gt;ик</TurnFleshmorphWordUtility.rulePack.rulesStrings.21>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.22>fleshyBitEnd-&gt;ар</TurnFleshmorphWordUtility.rulePack.rulesStrings.22>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.23>fleshyBitEnd-&gt;ан</TurnFleshmorphWordUtility.rulePack.rulesStrings.23>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.24>fleshyBitEnd-&gt;акс</TurnFleshmorphWordUtility.rulePack.rulesStrings.24>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.25>fleshyStartConsonants-&gt;кр</TurnFleshmorphWordUtility.rulePack.rulesStrings.25>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.26>fleshyStartConsonants-&gt;гр</TurnFleshmorphWordUtility.rulePack.rulesStrings.26>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.27>fleshyStartConsonants-&gt;в</TurnFleshmorphWordUtility.rulePack.rulesStrings.27>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.28>fleshyStartConsonants-&gt;д</TurnFleshmorphWordUtility.rulePack.rulesStrings.28>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.29>fleshyStartVowel-&gt;а</TurnFleshmorphWordUtility.rulePack.rulesStrings.29>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.30>fleshyStartVowel-&gt;и</TurnFleshmorphWordUtility.rulePack.rulesStrings.30>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.31>fleshyStartVowel-&gt;о</TurnFleshmorphWordUtility.rulePack.rulesStrings.31>
+  <TurnFleshmorphWordUtility.rulePack.rulesStrings.32>fleshyStartVowel-&gt;у</TurnFleshmorphWordUtility.rulePack.rulesStrings.32>
+
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.12>vowOh(p=2)-&gt;о</TurnGaurankindWordUtility.rulePack.rulesStrings.12>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.13>vowOh-&gt;оу</TurnGaurankindWordUtility.rulePack.rulesStrings.13>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.14>vowOh-&gt;оа</TurnGaurankindWordUtility.rulePack.rulesStrings.14>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.15>ohEnd(p=4)-&gt;[vowOh]б</TurnGaurankindWordUtility.rulePack.rulesStrings.15>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.16>ohEnd(p=4)-&gt;[vowOh]г</TurnGaurankindWordUtility.rulePack.rulesStrings.16>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.17>ohEnd(p=4)-&gt;[vowOh]х</TurnGaurankindWordUtility.rulePack.rulesStrings.17>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.18>ohEnd(p=4)-&gt;[vowOh]л</TurnGaurankindWordUtility.rulePack.rulesStrings.18>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.19>ohEnd(p=2)-&gt;[vowOh]т</TurnGaurankindWordUtility.rulePack.rulesStrings.19>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.20>ohEnd-&gt;[vowOh]ш</TurnGaurankindWordUtility.rulePack.rulesStrings.20>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.21>ohEnd-&gt;[vowOh]с</TurnGaurankindWordUtility.rulePack.rulesStrings.21>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.22>vowAh(p=4)-&gt;а</TurnGaurankindWordUtility.rulePack.rulesStrings.22>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.23>vowAh(p=4)-&gt;э</TurnGaurankindWordUtility.rulePack.rulesStrings.23>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.24>vowAh(p=4)-&gt;у</TurnGaurankindWordUtility.rulePack.rulesStrings.24>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.25>vowAh(p=2)-&gt;аа</TurnGaurankindWordUtility.rulePack.rulesStrings.25>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.26>vowAh-&gt;о</TurnGaurankindWordUtility.rulePack.rulesStrings.26>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.27>ahEnd(p=4)-&gt;[vowAh]ф</TurnGaurankindWordUtility.rulePack.rulesStrings.27>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.28>ahEnd(p=4)-&gt;[vowAh]г</TurnGaurankindWordUtility.rulePack.rulesStrings.28>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.29>ahEnd(p=4)-&gt;[vowAh]к</TurnGaurankindWordUtility.rulePack.rulesStrings.29>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.30>ahEnd(p=4)-&gt;[vowAh]л</TurnGaurankindWordUtility.rulePack.rulesStrings.30>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.31>ahEnd(p=4)-&gt;[vowAh]в</TurnGaurankindWordUtility.rulePack.rulesStrings.31>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.32>ahEnd(p=2)-&gt;[vowAh]ш</TurnGaurankindWordUtility.rulePack.rulesStrings.32>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.33>vowEw(p=4)-&gt;и</TurnGaurankindWordUtility.rulePack.rulesStrings.33>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.34>vowEw(p=4)-&gt;у</TurnGaurankindWordUtility.rulePack.rulesStrings.34>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.35>vowEw(p=4)-&gt;уу</TurnGaurankindWordUtility.rulePack.rulesStrings.35>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.36>vowEw(p=2)-&gt;уэ</TurnGaurankindWordUtility.rulePack.rulesStrings.36>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.37>vowEw-&gt;ие</TurnGaurankindWordUtility.rulePack.rulesStrings.37>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.38>ewEnd(p=4)-&gt;[vowEw]г</TurnGaurankindWordUtility.rulePack.rulesStrings.38>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.39>ewEnd(p=4)-&gt;[vowEw]ж</TurnGaurankindWordUtility.rulePack.rulesStrings.39>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.40>ewEnd(p=4)-&gt;[vowEw]л</TurnGaurankindWordUtility.rulePack.rulesStrings.40>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.41>ewEnd(p=4)-&gt;[vowEw]б</TurnGaurankindWordUtility.rulePack.rulesStrings.41>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.42>ewEnd(p=4)-&gt;[vowEw]п</TurnGaurankindWordUtility.rulePack.rulesStrings.42>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.43>ewEnd(p=3)-&gt;[vowEw]ш</TurnGaurankindWordUtility.rulePack.rulesStrings.43>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.44>ewEnd(p=2)-&gt;[vowEw][ewContinue]</TurnGaurankindWordUtility.rulePack.rulesStrings.44>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.45>ewContinue-&gt;б[vowAh]</TurnGaurankindWordUtility.rulePack.rulesStrings.45>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.46>ewContinue-&gt;л[vowAh]</TurnGaurankindWordUtility.rulePack.rulesStrings.46>
+  <TurnGaurankindWordUtility.rulePack.rulesStrings.47>ewContinue-&gt;п[vowAh]</TurnGaurankindWordUtility.rulePack.rulesStrings.47>
+
+  <NamerTurnFactionGaurankind.rulePack.rulesStrings.0>r_name-&gt;[gibberName] [political_union_tribal]</NamerTurnFactionGaurankind.rulePack.rulesStrings.0>
+  <NamerTurnFactionGaurankind.rulePack.rulesStrings.1>r_name-&gt;[gibberName] [political_union_tribal]</NamerTurnFactionGaurankind.rulePack.rulesStrings.1>
+  <NamerTurnFactionGaurankind.rulePack.rulesStrings.2>r_name-&gt;[Color] [gibberName] [political_union_tribal]</NamerTurnFactionGaurankind.rulePack.rulesStrings.2>
+  <NamerTurnFactionGaurankind.rulePack.rulesStrings.3>r_name-&gt;[political_union_tribal] [gibberName]</NamerTurnFactionGaurankind.rulePack.rulesStrings.3>
+  <NamerTurnFactionGaurankind.rulePack.rulesStrings.4>r_name-&gt;[Color] [fruit] [gibberName]</NamerTurnFactionGaurankind.rulePack.rulesStrings.4>
+  <NamerTurnFactionGaurankind.rulePack.rulesStrings.5>r_name-&gt;[gibberName] [TerrainFeature]</NamerTurnFactionGaurankind.rulePack.rulesStrings.5>
+
+  <NamerTurnPersonPurslave.rulePack.rulesStrings.0>r_name(p=2)-&gt;[miserableAdj] [slaveNoun]</NamerTurnPersonPurslave.rulePack.rulesStrings.0>
+</LanguageData>

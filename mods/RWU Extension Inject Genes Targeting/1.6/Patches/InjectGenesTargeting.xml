@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[comps/li[@Class="GeneInjector.CompProperties_TargetEffect_GeneInjectionT"]]/comps/li[@Class="CompProperties_Usable"]</xpath>
+        <value>
+          <li Class="CompProperties_Usable">
+            <useJob>RWU_ApplyGenepackToPawn</useJob>
+            <useLabel>Apply to...</useLabel>
+            <useDuration>60</useDuration>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef/comps/li[@Class="GeneInjector.CompProperties_TargetEffect_GeneInjectionT"]</xpath>
+        <value>
+          <li Class="RWUInjectGenesTargeting.CompProperties_TargetEffect_GeneInjectionTargeted" />
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[comps/li[@Class="RWUInjectGenesTargeting.CompProperties_TargetEffect_GeneInjectionTargeted"]]/comps</xpath>
+        <value>
+          <li Class="RWUInjectGenesTargeting.CompProperties_TargetableColonist" />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Turn_ComponentMedical.label>медицинский компонент</Turn_ComponentMedical.label>
+  <Turn_ComponentMedical.description>Набор стерильных схем и механизмов, предназначенных для сопряжения с живыми тканями.</Turn_ComponentMedical.description>
+
+  <Turn_BionicGyroscope.label>бионический гироскоп</Turn_BionicGyroscope.label>
+  <Turn_BionicGyroscope.description>Высокоточный гироскоп, размещаемый в центре тела и подключаемый к нервной системе носителя. Значительно улучшает кинестетическое чувство. Однако для эффективного использования этого улучшения необходима тренировка: сила эффекта зависит от навыка ближнего боя носителя.</Turn_BionicGyroscope.description>
+
+  <Turn_CaravanImplant.label>имплант странника</Turn_CaravanImplant.label>
+  <Turn_CaravanImplant.description>Набор инструментов и биологических манипуляторов, обеспечивающий носителю комфорт в долгих путешествиях. Кроме того, он помогает опытным растениеводам собирать пищу в пути.</Turn_CaravanImplant.description>
+
+  <Turn_CellStabilizer.label>клеточный стабилизатор</Turn_CellStabilizer.label>
+  <Turn_CellStabilizer.description>Подключённый к кровеносной системе имплант с роем механитов, предназначенных для устранения нарушений здоровья на клеточном уровне. Механиты периодически излечивают хронические заболевания, вызванные возрастной дегенерацией клеток. Процедура крайне деликатна, поэтому механиты работают довольно медленно и лечение уже имеющихся заболеваний может занять много времени.</Turn_CellStabilizer.description>
+
+  <Turn_LumbarRig.label>поясничный каркас</Turn_LumbarRig.label>
+  <Turn_LumbarRig.description>Сетчатый каркас, устанавливаемый в туловище возле нижнего отдела позвоночника. Сочетание сервоприводов и восстанавливающих нанитов позволяет устройству приспосабливаться к таким возрастным недугам, как больная спина и старческая слабость, а затем устранять их. Процедура крайне деликатна, поэтому каркас адаптируется медленно и компенсация нарушений может занять много времени.</Turn_LumbarRig.description>
+
+  <Turn_MagneticShield.label>электромагнитный щит</Turn_MagneticShield.label>
+  <Turn_MagneticShield.description>Сетка из катушкообразных проводников, покрывающая мозг. Сокращает длительность отрицательных эффектов, вызванных электромагнитными помехами в мозговых имплантах.</Turn_MagneticShield.description>
+
+  <Turn_SmoothModulator.label>модулятор мягкого голоса</Turn_SmoothModulator.label>
+  <Turn_SmoothModulator.description>Модулятор звуковых волн, устанавливаемый рядом с гортанью. Придаёт голосу носителя более мягкие и располагающие интонации.</Turn_SmoothModulator.description>
+
+  <Turn_RoughModulator.label>модулятор грубого голоса</Turn_RoughModulator.label>
+  <Turn_RoughModulator.description>Модулятор звуковых волн, устанавливаемый рядом с гортанью. Придаёт голосу резкое и угрожающее звучание, помогая запугивать окружающих и получать преимущество в спорах.</Turn_RoughModulator.description>
+
+  <Turn_OpticAugment.label>офтальмический аугмент</Turn_OpticAugment.label>
+  <Turn_OpticAugment.description>Имплант, устанавливаемый в зрительный центр мозга. Состоит из оптического усилителя, способного воспринимать непостижимые человеческим разумом цвета, и нейронного модуля, позволяющего их осмыслить. Повышает качество создаваемых носителем предметов, но только если тот уже хорошо владеет своим ремеслом.</Turn_OpticAugment.description>
+
+  <Turn_Painswitch.label>переключатель боли</Turn_Painswitch.label>
+  <Turn_Painswitch.description>Нейронный имплант, считывающий поступающие от тела болевые сигналы. При невыносимой боли переключатель погружает носителя в кому, даже если болевой центр мозга в этот момент заглушён.\n\nПереключатель боли был разработан как дополнение к нейтрализатору боли после того, как множество солдат погибло, продолжая действовать со смертельными ранениями.</Turn_Painswitch.description>
+
+  <Turn_SkullPlateFoil.label>психофольговая черепная пластина</Turn_SkullPlateFoil.label>
+  <Turn_SkullPlateFoil.description>Пластина из психофольги, специально приспособленная для установки в череп человекоподобного существа. Снижает психическую чувствительность носителя.</Turn_SkullPlateFoil.description>
+
+  <Turn_PsychoProcessor.label>психопроцессор</Turn_PsychoProcessor.label>
+  <Turn_PsychoProcessor.description>Нейрокомпьютер, использующий ткани мозга для вычислений. Пассивно накапливает очки исследований, пока носитель спит. У более умных пешек нейронные пути обычно организованы лучше, поэтому они производят больше очков исследований.</Turn_PsychoProcessor.description>
+
+  <Turn_WindGauge.label>бионический датчик ветра</Turn_WindGauge.label>
+  <Turn_WindGauge.description>Нейрокомпьютер, соединённый с массивом датчиков под кожей. Даёт носителю сверхчеловеческое чувство скорости и направления ветра, способное улавливать малейшие колебания. Опытный стрелок может использовать эти сведения для повышения точности, но неопытному устройство пользы не принесёт.</Turn_WindGauge.description>
+
+  <Turn_Biocapsule.label>биокапсула</Turn_Biocapsule.label>
+  <Turn_Biocapsule.description>Небольшое устройство в брюшной полости, использующее механитов для постоянной подготовки организма к биоскульптингу. Когда носитель входит в биоскульпторную капсулу, цикл завершается быстрее.</Turn_Biocapsule.description>
+
+  <Turn_NeuralSupercapacitor.label>нейронный суперконденсатор</Turn_NeuralSupercapacitor.label>
+  <Turn_NeuralSupercapacitor.description>Высокотехнологичный конденсатор, встроенный в мозг. Вдвое увеличивает длительность нейросуперзаряда, однако постоянная стимуляция снижает эффективность отдыха.</Turn_NeuralSupercapacitor.description>
+
+  <Turn_SkullPlateEltex.label>эл-тексовая черепная пластина</Turn_SkullPlateEltex.label>
+  <Turn_SkullPlateEltex.description>Пластина из усиливающего пси-способности эл-текса, специально приспособленная для установки в череп человекоподобного существа. Повышает психическую чувствительность носителя и скорость рассеивания энтропии.</Turn_SkullPlateEltex.description>
+
+  <Turn_PsychicRefresher.label>медитативный освежитель</Turn_PsychicRefresher.label>
+  <Turn_PsychicRefresher.description>Мозговой имплант, снижающий «ненужную» нервную активность во время медитации. Пока носитель медитирует, ему требуется меньше сна, а значит, остаётся больше времени для медитации.</Turn_PsychicRefresher.description>
+
+  <Turn_PsychicAssistant.label>пси-помощник</Turn_PsychicAssistant.label>
+  <Turn_PsychicAssistant.description>Небольшой компьютер, подключённый к мозгу. Встроенный ИИ помогает носителю справляться с умственной нагрузкой при применении пси-способностей, снижая расход пси-фокуса. Он также способен частично поддерживать длительные эффекты вместо носителя, компенсируя до 100 единиц минимального нейронагрева.</Turn_PsychicAssistant.description>
+</LanguageData>

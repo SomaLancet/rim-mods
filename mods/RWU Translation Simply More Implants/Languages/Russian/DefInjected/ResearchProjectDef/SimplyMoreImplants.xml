@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Turn_MedicalComponentResearch.label>медицинские компоненты</Turn_MedicalComponentResearch.label>
+  <Turn_MedicalComponentResearch.description>Позволяет производить стерильные высокоточные компоненты для медицинских имплантов.</Turn_MedicalComponentResearch.description>
+
+  <Turn_SkullPlatePsychic.label>психические черепные пластины</Turn_SkullPlatePsychic.label>
+  <Turn_SkullPlatePsychic.description>Позволяет переделывать существующее психическое снаряжение в специальные пластины, пригодные для безопасной установки в череп человекоподобного существа.</Turn_SkullPlatePsychic.description>
+
+  <Turn_VoiceModulation.label>модуляция голоса</Turn_VoiceModulation.label>
+  <Turn_VoiceModulation.description>Позволяет создавать импланты, изменяющие звучание голоса носителя.</Turn_VoiceModulation.description>
+
+  <Turn_CaravanImplants.label>средства дальних путешествий</Turn_CaravanImplants.label>
+  <Turn_CaravanImplants.description>Позволяет создавать импланты, помогающие путешествовать по планете.</Turn_CaravanImplants.description>
+
+  <Turn_HumanUtilization.label>эксплуатация человеческих ресурсов</Turn_HumanUtilization.label>
+  <Turn_HumanUtilization.description>Позволяет создавать импланты для необычного использования человеческих ресурсов.</Turn_HumanUtilization.description>
+
+  <Turn_CombatSkillImplants.label>усиление боевых навыков</Turn_CombatSkillImplants.label>
+  <Turn_CombatSkillImplants.description>Позволяет создавать бионические устройства, усиливающие боевые способности при установке опытным пешкам.</Turn_CombatSkillImplants.description>
+
+  <Turn_QualityImplants.label>повышение качества продукции</Turn_QualityImplants.label>
+  <Turn_QualityImplants.description>Позволяет создавать импланты, повышающие качество изделий пешек.</Turn_QualityImplants.description>
+
+  <Turn_CompatibilityImplants.label>интеграция бионики</Turn_CompatibilityImplants.label>
+  <Turn_CompatibilityImplants.description>Позволяет создавать импланты, смягчающие отрицательные эффекты других имплантов.</Turn_CompatibilityImplants.description>
+
+  <Turn_LifespanImplants.label>импланты продления жизни</Turn_LifespanImplants.label>
+  <Turn_LifespanImplants.description>Позволяет создавать импланты, предотвращающие возрастное ухудшение качества жизни носителей.</Turn_LifespanImplants.description>
+
+  <Turn_PsycasterImplants.label>импланты псионика</Turn_PsycasterImplants.label>
+  <Turn_PsycasterImplants.description>Позволяет создавать импланты, дополнительно усиливающие способности людей с психическими силами.</Turn_PsycasterImplants.description>
+
+  <Turn_TranshumanistImplants.label>трансгуманистические импланты</Turn_TranshumanistImplants.label>
+  <Turn_TranshumanistImplants.description>Позволяет создавать импланты, предназначенные прежде всего для трансгуманистических идеологионов.</Turn_TranshumanistImplants.description>
+</LanguageData>

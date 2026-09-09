@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Extension Inject Genes Targeting</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.injectgenestargeting</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>RimWorld - Biotech</displayName>
+    </li>
+    <li>
+      <packageId>Zaf.InjectGene</packageId>
+      <displayName>Inject Genes</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2918091446</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Zaf.InjectGene</li>
+  </loadAfter>
+  <description>
+Adds targeted use to genepacks supported by Inject Genes. Select an executor, right-click a genepack, choose "Apply to...", and then select the colonist, colony prisoner, or colony slave who should receive its genes. The executor carries the genepack to the target and applies Inject Genes' gene injection effect.
+  </description>
+</ModMetaData>

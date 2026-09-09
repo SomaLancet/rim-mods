@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Turn_Scenario_FallenNoble.label>падший аристократ</Turn_Scenario_FallenNoble.label>
+  <Turn_Scenario_FallenNoble.description>Когда-то вы были влиятельным аристократом, пока у вас не отняли всё имущество. Вы пережили покушение, но теперь оказались в одиночестве посреди глуши.\n\nВнимание: вы начинаете игру с заносчивым аристократом и без имущества, поэтому этот сценарий может оказаться сложным для новичков.</Turn_Scenario_FallenNoble.description>
+  <Turn_Scenario_FallenNoble.scenario.name>Падший аристократ</Turn_Scenario_FallenNoble.scenario.name>
+  <Turn_Scenario_FallenNoble.scenario.description>Когда-то вы были влиятельным аристократом, пока у вас не отняли всё имущество. Вы пережили покушение, но теперь оказались в одиночестве посреди глуши.\n\nВнимание: вы начинаете игру с заносчивым аристократом и без имущества, поэтому этот сценарий может оказаться сложным для новичков.</Turn_Scenario_FallenNoble.scenario.description>
+  <Turn_Scenario_FallenNoble.scenario.summary>Один знатный регалид — и почти ничего больше.</Turn_Scenario_FallenNoble.scenario.summary>
+  <Turn_Scenario_FallenNoble.scenario.parts.ConfigurePawnsXenotypes.customSummary>Начните с одного взрослого регалида.</Turn_Scenario_FallenNoble.scenario.parts.ConfigurePawnsXenotypes.customSummary>
+  <Turn_Scenario_FallenNoble.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>взрослый регалид</Turn_Scenario_FallenNoble.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>
+  <Turn_Scenario_FallenNoble.scenario.parts.GameStartDialog.text>Благодаря царственной крови всё в жизни доставалось вам само собой. Вскоре другие захотели получить то, чем владели вы. Ровня плела против вас интриги, и череда обмана, предательства и ударов в спину низвергла вас с вершины на самое дно. Враги отняли всё ваше земное имущество, а вы лишь чудом пережили покушение.\n\nС повреждённым челноком и без места, куда можно отправиться, вы вскоре оказываетесь в глуши. При вас остались лишь царственная кровь и одежда. Сумеете ли вы снова подняться на вершину? Или погибнете здесь в одиночестве и забвении?</Turn_Scenario_FallenNoble.scenario.parts.GameStartDialog.text>
+
+  <Turn_Scenario_LostCaretakers.label>потерянные хранители</Turn_Scenario_LostCaretakers.label>
+  <Turn_Scenario_LostCaretakers.description>Чужаки сожгли ваши священные рощи. Вам удалось спастись лишь с горсткой семян Гауранлен. Из них может вырасти новый лес.</Turn_Scenario_LostCaretakers.description>
+  <Turn_Scenario_LostCaretakers.scenario.name>Потерянные хранители</Turn_Scenario_LostCaretakers.scenario.name>
+  <Turn_Scenario_LostCaretakers.scenario.description>Чужаки сожгли ваши священные рощи. Вам удалось спастись лишь с горсткой семян Гауранлен. Из них может вырасти новый лес.</Turn_Scenario_LostCaretakers.scenario.description>
+  <Turn_Scenario_LostCaretakers.scenario.summary>Пять заблудившихся гауранленцев и горстка семян. Сложный сценарий.</Turn_Scenario_LostCaretakers.scenario.summary>
+  <Turn_Scenario_LostCaretakers.scenario.parts.ConfigurePawnsXenotypes.customSummary>Начните с пяти гауранленцев любого возраста.</Turn_Scenario_LostCaretakers.scenario.parts.ConfigurePawnsXenotypes.customSummary>
+  <Turn_Scenario_LostCaretakers.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>гауранленец</Turn_Scenario_LostCaretakers.scenario.parts.ConfigurePawnsXenotypes.xenotypeCounts.0.description>
+  <Turn_Scenario_LostCaretakers.scenario.parts.GameStartDialog.text>Подлые поклонники машин напали на ваши священные рощи, вооружившись непробиваемой бронёй и смертоносными громовыми палками. Они разграбили ваш дом и уничтожили леса.\n\nПятерым из вас удалось бежать, забрав лишь несколько священных семян Гауранлен. Большего вам и не нужно. Из этих семян вырастет новый лес, а духи природы дадут всё остальное.</Turn_Scenario_LostCaretakers.scenario.parts.GameStartDialog.text>
+</LanguageData>
