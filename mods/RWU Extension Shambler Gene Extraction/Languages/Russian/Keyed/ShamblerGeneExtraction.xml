@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWU_ExtractShamblerGenes>Извлечь гены шамблера</RWU_ExtractShamblerGenes>
+  <RWU_ExtractShamblerGenesDesc>Освободить этого живого гуманоида-шамблера с платформы содержания и поручить колонисту перенести его в поддерживаемый генный экстрактор.</RWU_ExtractShamblerGenesDesc>
+  <RWU_NoSupportedExtractor>На этой карте нет доступного компактного генного экстрактора или Gene Ripper.</RWU_NoSupportedExtractor>
+  <RWU_ExtractorUnavailable>Экстрактор недоступен</RWU_ExtractorUnavailable>
+  <RWU_NoShamblerCarrier>Ни один колонист не может безопасно добраться до этой платформы и здания «{0}».</RWU_NoShamblerCarrier>
+  <RWU_CarryShamblerTo>Перенести в {0} ({1})</RWU_CarryShamblerTo>
+  <RWU_ShamblerTransferFailed>Не удалось перенести шамблера в «{0}».</RWU_ShamblerTransferFailed>
+</LanguageData>

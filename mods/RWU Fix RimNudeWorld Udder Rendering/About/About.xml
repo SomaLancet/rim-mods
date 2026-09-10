@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RWU Fix RimNudeWorld Udder Rendering</name>
+  <author>SomaLancet / Codex</author>
+  <packageId>dieruki.rwu.rimnudeworldudderrendering</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>rim.job.world</packageId>
+      <displayName>RimJobWorld</displayName>
+    </li>
+    <li>
+      <packageId>shauaputa.rimnudeworld</packageId>
+      <displayName>RimNudeWorld</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>rim.job.world</li>
+    <li>shauaputa.rimnudeworld</li>
+  </loadAfter>
+  <description>
+Makes RimNudeWorld render its standard breast and nipple graphics when a human pawn has RJW's UdderBreasts hediff. The displayed size follows the udder's actual severity; RJW mechanics are unchanged.
+  </description>
+</ModMetaData>

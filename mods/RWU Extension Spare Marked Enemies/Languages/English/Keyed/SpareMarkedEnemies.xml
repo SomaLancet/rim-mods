@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWU_SpareEnemyMark>Spare this enemy</RWU_SpareEnemyMark>
+  <RWU_SpareEnemyUnmark>Remove spare mark</RWU_SpareEnemyUnmark>
+  <RWU_SpareEnemyMarkDesc>Toggle the spare mark. Player-controlled colonists will not select this hostile pawn as an attack target, and damage caused by them will be blocked.</RWU_SpareEnemyMarkDesc>
+  <RWU_SpareEnemyUnmarkDesc>Remove the spare mark. Player-controlled colonists may attack this hostile pawn again.</RWU_SpareEnemyUnmarkDesc>
+  <RWU_SpareEnemyUnmarkCorpseDesc>Remove the persistent spare mark from this corpse.</RWU_SpareEnemyUnmarkCorpseDesc>
+</LanguageData>

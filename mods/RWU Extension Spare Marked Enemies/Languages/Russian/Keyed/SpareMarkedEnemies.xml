@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWU_SpareEnemyMark>Не атаковать</RWU_SpareEnemyMark>
+  <RWU_SpareEnemyUnmark>Снять метку</RWU_SpareEnemyUnmark>
+  <RWU_SpareEnemyMarkDesc>Переключает метку сохранения жизни. Управляемые игроком колонисты не будут выбирать эту враждебную пешку целью атаки, а нанесённый ими урон будет заблокирован.</RWU_SpareEnemyMarkDesc>
+  <RWU_SpareEnemyUnmarkDesc>Снимает метку. Управляемые игроком колонисты снова смогут атаковать эту враждебную пешку.</RWU_SpareEnemyUnmarkDesc>
+  <RWU_SpareEnemyUnmarkCorpseDesc>Снимает постоянную метку с этого трупа.</RWU_SpareEnemyUnmarkCorpseDesc>
+</LanguageData>

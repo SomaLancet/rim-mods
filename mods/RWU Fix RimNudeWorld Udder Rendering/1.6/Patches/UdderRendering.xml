@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--
+    RimNudeWorld chooses breast textures from exact HediffDef conditions. Adding
+    UdderBreasts to those conditions makes HAR retain that hediff in ResolveData,
+    so the existing Severity branches use the udder's own size. If normal Breasts
+    and UdderBreasts coexist, normal Breasts remains first and keeps precedence.
+  -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[starts-with(path, "Breasts/Featureless")]/extendedGraphics//Or[Hediff="Breasts"]</xpath>
+    <value>
+      <Hediff>UdderBreasts</Hediff>
+    </value>
+  </Operation>
+</Patch>

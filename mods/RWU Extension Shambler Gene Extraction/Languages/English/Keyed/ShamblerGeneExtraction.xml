@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RWU_ExtractShamblerGenes>Extract shambler genes</RWU_ExtractShamblerGenes>
+  <RWU_ExtractShamblerGenesDesc>Release this living humanlike shambler from containment and have a colonist carry it to a supported gene extractor.</RWU_ExtractShamblerGenesDesc>
+  <RWU_NoSupportedExtractor>No available compact gene extractor or Gene Ripper is present on this map.</RWU_NoSupportedExtractor>
+  <RWU_ExtractorUnavailable>Extractor unavailable</RWU_ExtractorUnavailable>
+  <RWU_NoShamblerCarrier>No colonist can safely reach both this platform and {0}.</RWU_NoShamblerCarrier>
+  <RWU_CarryShamblerTo>Carry to {0} ({1})</RWU_CarryShamblerTo>
+  <RWU_ShamblerTransferFailed>The shambler could not be transferred to {0}.</RWU_ShamblerTransferFailed>
+</LanguageData>
