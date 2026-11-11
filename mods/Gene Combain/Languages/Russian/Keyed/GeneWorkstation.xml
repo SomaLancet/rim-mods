@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RWUGW_Random>Извлечь случайный ген</RWUGW_Random>
+  <RWUGW_RandomDesc>Извлечь случайный набор генов у живого донора.</RWUGW_RandomDesc>
+  <RWUGW_Rip>Выдрать ген</RWUGW_Rip>
+  <RWUGW_RipDesc>Извлечь выбранный ген из свежего трупа или пожертвовать живым донором ради этого гена.</RWUGW_RipDesc>
+  <RWUGW_Remove>Удалить ген</RWUGW_Remove>
+  <RWUGW_RemoveDesc>Удалить один ген у живой пешки. Генопак не создаётся.</RWUGW_RemoveDesc>
+  <RWUGW_EnterRandom>Войти для случайного извлечения генов</RWUGW_EnterRandom>
+  <RWUGW_EnterRip>Войти для летального извлечения гена</RWUGW_EnterRip>
+  <RWUGW_EnterRemove>Войти для удаления гена</RWUGW_EnterRemove>
+  <RWUGW_Xenogenes>Ксеногены</RWUGW_Xenogenes>
+  <RWUGW_Endogenes>Врождённые гены</RWUGW_Endogenes>
+  <RWUGW_NoDonors>Доноров нет.</RWUGW_NoDonors>
+  <RWUGW_NoCarrier>Нет доступного переносчика или пути.</RWUGW_NoCarrier>
+  <RWUGW_NoGenes>Нет подходящих генов.</RWUGW_NoGenes>
+  <RWUGW_NotFresh>Труп уже сгнил.</RWUGW_NotFresh>
+  <RWUGW_Sampled>Из этого трупа уже извлекли ген.</RWUGW_Sampled>
+  <RWUGW_Unavailable>Этот донор недоступен.</RWUGW_Unavailable>
+  <RWUGW_Adult>Живой донор должен быть взрослым.</RWUGW_Adult>
+  <RWUGW_Recovery>Донор восстанавливается после генетической процедуры.</RWUGW_Recovery>
+  <RWUGW_ConfirmDeath>Процедура убьёт пешку «{0}». Продолжить?</RWUGW_ConfirmDeath>
+  <RWUGW_ConfirmRecoveryRisk>Пешка «{0}» ещё восстанавливается. Извлечение может её убить. Продолжить?</RWUGW_ConfirmRecoveryRisk>
+  <RWUGW_Cancel>Отменить генетическую процедуру</RWUGW_Cancel>
+  <RWUGW_Aborted>Генетическая процедура прервана.</RWUGW_Aborted>
+  <RWUGW_Progress>Пациент: {0}. Осталось: {1}.</RWUGW_Progress>
+  <RWUGW_Waiting>Ожидается загрузка: {0}.</RWUGW_Waiting>
+  <RWUGW_Extracted>Гены извлечены: {0}.</RWUGW_Extracted>
+  <RWUGW_Removed>Ген «{0}» удалён у пешки «{1}».</RWUGW_Removed>
+  <RWUGW_CorpseLabel>{0} (труп)</RWUGW_CorpseLabel>
+  <RWUGW_ShamblerLabel>{0} (шамблер)</RWUGW_ShamblerLabel>
+</LanguageData>

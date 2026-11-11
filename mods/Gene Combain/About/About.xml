@@ -1,0 +1,11 @@
+<ModMetaData>
+  <name>Gene Combain</name>
+  <author>dieruki</author>
+  <packageId>dieruki.rwu.genecombain</packageId>
+  <supportedVersions><li>1.6</li><li>1.7</li></supportedVersions>
+  <modDependencies>
+    <li><packageId>Ludeon.RimWorld.Biotech</packageId><displayName>Biotech</displayName></li>
+  </modDependencies>
+  <loadAfter><li>vanillaexpanded.gravship</li></loadAfter>
+  <description>A gene workstation for extraction and removal, including fresh corpses and contained shamblers.</description>
+</ModMetaData>

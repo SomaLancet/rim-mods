@@ -1,0 +1,74 @@
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="RWU_GeneWorkstationBase" Abstract="True">
+    <thingClass>RWUGeneWorkstation.Building_GeneWorkstation</thingClass>
+    <containedPawnsSelectable>true</containedPawnsSelectable>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <hasInteractionCell>true</hasInteractionCell>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <designationCategory>Biotech</designationCategory>
+    <uiOrder>2105</uiOrder>
+    <researchPrerequisites><li>Xenogermination</li></researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToBuild>9000</WorkToBuild>
+      <Mass>85</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>40</Plasteel>
+      <Gold>25</Gold>
+      <ComponentSpacer>4</ComponentSpacer>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>1000</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <building><buildingTags><li>Biotech</li></buildingTags><workTableRoomRole>Laboratory</workTableRoomRole></building>
+  </ThingDef>
+  <ThingDef ParentName="RWU_GeneWorkstationBase">
+    <defName>RWU_GeneWorkstation</defName>
+    <label>gene workstation</label>
+    <description>Extract random genes, rip a chosen gene, or remove a gene from a living donor.</description>
+    <size>(3, 2)</size>
+    <interactionCellOffset>(0, 0, 2)</interactionCellOffset>
+    <graphicData>
+      <texPath>GeneWorkstation</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3, 2)</drawSize>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="RWU_GeneWorkstationBase" MayRequire="vanillaexpanded.gravship">
+    <defName>RWU_CompactGeneWorkstation</defName>
+    <label>compact gene workstation</label>
+    <description>A narrow gene workstation designed for gravships.</description>
+    <size>(1, 2)</size>
+    <costList Inherit="False">
+      <Steel>100</Steel>
+      <Plasteel>40</Plasteel>
+      <Gold>10</Gold>
+      <ComponentSpacer>2</ComponentSpacer>
+      <GravlitePanel>10</GravlitePanel>
+    </costList>
+    <comps Inherit="False">
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <interactionCellOffset>(0, 0, 2)</interactionCellOffset>
+    <researchPrerequisites><li>VGE_CompactWorkspaces</li></researchPrerequisites>
+    <graphicData>
+      <texPath>CompactGeneWorkstation</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1, 2)</drawSize>
+    </graphicData>
+  </ThingDef>
+</Defs>

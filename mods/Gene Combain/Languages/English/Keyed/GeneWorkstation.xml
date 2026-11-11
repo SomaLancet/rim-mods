@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RWUGW_Random>Extract random gene</RWUGW_Random>
+  <RWUGW_RandomDesc>Extract a random set of genes from a living donor.</RWUGW_RandomDesc>
+  <RWUGW_Rip>Rip gene</RWUGW_Rip>
+  <RWUGW_RipDesc>Extract one chosen gene from a fresh corpse or kill a living donor to extract it.</RWUGW_RipDesc>
+  <RWUGW_Remove>Remove gene</RWUGW_Remove>
+  <RWUGW_RemoveDesc>Remove one gene from a living pawn. This produces no genepack.</RWUGW_RemoveDesc>
+  <RWUGW_EnterRandom>Enter for random gene extraction</RWUGW_EnterRandom>
+  <RWUGW_EnterRip>Enter for lethal gene extraction</RWUGW_EnterRip>
+  <RWUGW_EnterRemove>Enter to remove a gene</RWUGW_EnterRemove>
+  <RWUGW_Xenogenes>Xenogenes</RWUGW_Xenogenes>
+  <RWUGW_Endogenes>Germline genes</RWUGW_Endogenes>
+  <RWUGW_NoDonors>No donors found.</RWUGW_NoDonors>
+  <RWUGW_NoCarrier>No available carrier or path.</RWUGW_NoCarrier>
+  <RWUGW_NoGenes>No eligible genes.</RWUGW_NoGenes>
+  <RWUGW_NotFresh>The corpse is no longer fresh.</RWUGW_NotFresh>
+  <RWUGW_Sampled>Genes have already been extracted from this corpse.</RWUGW_Sampled>
+  <RWUGW_Unavailable>This donor is unavailable.</RWUGW_Unavailable>
+  <RWUGW_Adult>The living donor must be an adult.</RWUGW_Adult>
+  <RWUGW_Recovery>The donor is recovering from a gene procedure.</RWUGW_Recovery>
+  <RWUGW_ConfirmDeath>This procedure will kill {0}. Continue?</RWUGW_ConfirmDeath>
+  <RWUGW_ConfirmRecoveryRisk>{0} is still recovering. Extraction can be lethal. Continue?</RWUGW_ConfirmRecoveryRisk>
+  <RWUGW_Cancel>Cancel gene procedure</RWUGW_Cancel>
+  <RWUGW_Aborted>Gene procedure aborted.</RWUGW_Aborted>
+  <RWUGW_Progress>Processing {0}. Time remaining: {1}.</RWUGW_Progress>
+  <RWUGW_Waiting>Waiting for {0}.</RWUGW_Waiting>
+  <RWUGW_Extracted>Genes extracted: {0}.</RWUGW_Extracted>
+  <RWUGW_Removed>Removed {0} from {1}.</RWUGW_Removed>
+  <RWUGW_CorpseLabel>{0} (corpse)</RWUGW_CorpseLabel>
+  <RWUGW_ShamblerLabel>{0} (shambler)</RWUGW_ShamblerLabel>
+</LanguageData>

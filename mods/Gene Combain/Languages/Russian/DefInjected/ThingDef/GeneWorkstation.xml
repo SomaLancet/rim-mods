@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <RWU_GeneWorkstation.label>генный комбайн</RWU_GeneWorkstation.label>
+  <RWU_GeneWorkstation.description>Извлекает случайные или выбранные гены и удаляет отдельные гены у живых пешек.</RWU_GeneWorkstation.description>
+  <RWU_CompactGeneWorkstation.label>компактный генный комбайн</RWU_CompactGeneWorkstation.label>
+  <RWU_CompactGeneWorkstation.description>Узкий генный комбайн для гравикораблей.</RWU_CompactGeneWorkstation.description>
+</LanguageData>

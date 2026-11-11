@@ -1,0 +1,7 @@
+<Defs>
+  <JobDef>
+    <defName>RWU_LoadGeneWorkstation</defName>
+    <driverClass>RWUGeneWorkstation.JobDriver_LoadGeneWorkstation</driverClass>
+    <reportString>loading TargetB into TargetA.</reportString>
+  </JobDef>
+</Defs>
