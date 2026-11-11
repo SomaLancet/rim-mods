@@ -11,3 +11,7 @@
 Основной сценарий проверки: загрузить `second age — 5`, снова отправить транспорт на сайт `Сигнал бедствия от фракции Херхерхерни` и убедиться, что карта открывается, а пассажиры высаживаются. В логе не должно быть `Ref 9903CC42` / `Exception in transport pods arrival action`.
 
 Загружать после Harmony. RJW Sexperience, RJW Genes, Vanilla Social Interactions Expanded и Humanoid Alien Races указаны только в `loadAfter`; обязательными зависимостями они не являются.
+
+## Сборка
+
+На macOS с установленным компилятором `csc` запусти `bash Source/RWUDistressCallArrivalFix/build.sh` из папки мода. По умолчанию используются RimWorld и Harmony из Steam в домашней папке текущего пользователя; при другой установке задай `RIMWORLD_MANAGED` и `HARMONY_ASSEMBLY`.

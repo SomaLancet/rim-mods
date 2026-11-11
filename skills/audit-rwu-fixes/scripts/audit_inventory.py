@@ -11,12 +11,11 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
-DEFAULT_RIMWORLD = Path(
-    "/Users/dieruki/Library/Application Support/Steam/steamapps/common/"
-    "RimWorld/RimWorldMac.app"
+DEFAULT_RIMWORLD = Path.home() / (
+    "Library/Application Support/Steam/steamapps/common/RimWorld/RimWorldMac.app"
 )
-DEFAULT_CONFIG = Path(
-    "/Users/dieruki/Library/Application Support/RimWorld/Config/ModsConfig.xml"
+DEFAULT_CONFIG = Path.home() / (
+    "Library/Application Support/RimWorld/Config/ModsConfig.xml"
 )
 IGNORED_TARGETS = {
     "brrainz.harmony",
